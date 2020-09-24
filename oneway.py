@@ -1,3 +1,9 @@
+"""
+Copyright (C) 2020 Intel Corporation
+
+SPDX-License-Identifier: BSD-3-Clause
+"""
+
 from openvino.inference_engine import IENetwork, IECore
 from libs.person_trackers import PersonTrackers, TrackableObject
 from libs.geometric import get_polygon, get_point, get_line
